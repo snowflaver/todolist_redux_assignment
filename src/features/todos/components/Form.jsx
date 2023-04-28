@@ -30,7 +30,7 @@ const Form = () => {
 
     dispatch(addTodo({...todo, id : id}));
     
-    setTodo({
+    setTodo({   
       id: 0,
       title: "",
       body: "",
